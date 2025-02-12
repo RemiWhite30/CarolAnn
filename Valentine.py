@@ -43,7 +43,7 @@ shape.pendown()
 shape.write("Valentine?",move=False,align='center',font=("Arial",80,("bold","normal")))
 
 # Save the drawing as an image
-canvas = wn.getscreen()
+canvas = shape.getscreen()
 canvas.getcanvas().postscript(file="turtle_drawing.eps")
 
 from PIL import Image
